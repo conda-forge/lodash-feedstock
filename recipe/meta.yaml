@@ -1,6 +1,6 @@
 {% set name = "lodash" %}
-{% set version = "4.17.13" %}
-{% set sha256 = "caf561901b6ecb6951cf506ed6bba78c0fe9d8bc05d17dc63b96a1c229fb50f4" %}
+{% set version = "4.17.14" %}
+{% set sha256 = "7639d4777e27e4f30e34bce153040e28db5263121385e4fd6a0b9c4e344bf7c3" %}
 
 package:
   name: {{ name|lower }}
