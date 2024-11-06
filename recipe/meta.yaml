@@ -1,6 +1,6 @@
 {% set name = "lodash" %}
-{% set version = "4.17.15" %}
-{% set sha256 = "4e6dfe3a27e43891e4b83cea37979cc187a37e833a8566566738e15a359f9d4b" %}
+{% set version = "4.17.19" %}
+{% set sha256 = "4c383fba84617e8f318f1afff023d4bb800731bdd307f10092ae198bc0095778" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,20 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g lodash
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/lodash/lodash
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A modern JavaScript utility library delivering modularity, performance, & extras.'
+  summary: A modern JavaScript utility library delivering modularity, performance, & extras.
   description: |
     A modern JavaScript utility library delivering modularity, performance, & extras.  
   doc_url: https://lodash.com/docs
